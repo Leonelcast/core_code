@@ -2,7 +2,7 @@
 ## Tuesday
 ### 1. Watch this video about compilation and interpretation
 ### 2. Search and answer the question: Java language is compiled or interpreted?
-- Java language is compiled
+- Java language is compiled and interpreted 
 ### 3. Create an algorithm to calculate the equivalent of your local currencty to USD
 - First of all we need the exact price equivalent of Quetzales to 1 dollar, so right now the price of $1 is equivalent to Q7.72. if I need to get another number for example Q100 I need to divided into 7.72 and it would be $12.95
 ### 4. Anwser to the question: Why is pseudocode helpful?
