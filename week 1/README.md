@@ -39,6 +39,7 @@
 
 ### 5. Base on the examples and the guide of the low-level language: 5.1 Create a program to add two numbers given by the user 5.2 Create a program that display your name
 ##### Display name:
+```
  .data
     message: .asciiz "\Leonel Castaneda\n"
   .text
@@ -46,33 +47,36 @@
       li $v0, 4
       la $a0, message
       syscall
+```
 ##### Add to numbers by user:
-.data
-	number1: .asciiz "\nIngrese el primer numero: "
-	number2: .asciiz "\nIngrese el segundo numero: "
-.text
-	main:
-		li $v0, 4
-		la $a0, number1
-		syscall
+```
+  .data
+    number1: .asciiz "\nIngrese el primer numero: "
+    number2: .asciiz "\nIngrese el segundo numero: "
+  .text
+    main:
+      li $v0, 4
+      la $a0, number1
+      syscall
 
-		li $v0, 5
-		syscall
+      li $v0, 5
+      syscall
 
-		move $t0, $v0
+      move $t0, $v0
 
-		li $v0, 4
-		la $a0, number2
-		syscall
+      li $v0, 4
+      la $a0, number2
+      syscall
 
-		li $v0, 5
-		syscall
+      li $v0, 5
+      syscall
 
-		move $t1, $v0
+      move $t1, $v0
 
-		li $v0, 1
-		move $a0, $t0
-		syscall
+      li $v0, 1
+      move $a0, $t0
+      syscall
+```    
 ## Thursday
 ### 1. Search for real word applications of Javascript
 JS become a really solid programming language and it´s used for a lot of things for example:
