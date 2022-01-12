@@ -88,7 +88,7 @@ JS become a really solid programming language and it´s used for a lot of things
 - mobile applications
 
 ### 2. github
-- github is really important is a really big community where you can learn a lot, but github also needs git that it´s the control version. You need to install git to get the versions of your code and also follow some of the must important commands of git:
+github is really important is a really big community where you can learn a lot, but github also needs git that it´s the control version. You need to install git to get the versions of your code and also follow some of the must important commands of git:
 - git init
 - git add .
 - git status 
