@@ -24,3 +24,74 @@
 ### 9. Search about High-level languages and Low-level languages, you can start with this video
 - High-level: they are easy for the humans to understand but it´s difficult for the computer. We can find here interpreted languages like: JS, Python and ruby. Also we find here compiled languages like Java, C and others.
 - Low-level: they are easy for the computers to understando but difficult for the humans. Here we find programming languages like Assembler that it's really difficult for the humans to understand.
+
+## Wednesday
+### 1. Learn about binary, decimal and hexadecimal numbers
+### 2. Translate the year you where born to binary, decimal and hexadecimal
+- year I was born: 1997
+- binary: 111 1100 1101
+- decimal: 1997
+- hexadecimal: 7CD
+### 3. Translate 51966 into hexadecimal and binary
+- hexadecimal: CAFE
+- binary: 1100 1010 1111 1110
+### 4. Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow this guide. We recomend to check the guide first but also this presentation could be helpful.
+
+### 5. Base on the examples and the guide of the low-level language: 5.1 Create a program to add two numbers given by the user 5.2 Create a program that display your name
+##### Display name:
+ .data
+    message: .asciiz "\Leonel Castaneda\n"
+  .text
+    main:
+      li $v0, 4
+      la $a0, message
+      syscall
+##### Add to numbers by user:
+.data
+	number1: .asciiz "\nIngrese el primer numero: "
+	number2: .asciiz "\nIngrese el segundo numero: "
+.text
+	main:
+		li $v0, 4
+		la $a0, number1
+		syscall
+
+		li $v0, 5
+		syscall
+
+		move $t0, $v0
+
+		li $v0, 4
+		la $a0, number2
+		syscall
+
+		li $v0, 5
+		syscall
+
+		move $t1, $v0
+
+		li $v0, 1
+		move $a0, $t0
+		syscall
+## Thursday
+### 1. Search for real word applications of Javascript
+JS become a really solid programming language and it´s used for a lot of things for example:
+- videogames
+- web development
+- web applications
+- server applications
+- web servers
+- mobile applications
+
+### 2. github
+- github is really important is a really big community where you can learn a lot, but github also needs git that it´s the control version. You need to install git to get the versions of your code and also follow some of the must important commands of git:
+- git init
+- git add .
+- git status 
+- git clone <URL>
+- git commit -m "Commit message"
+- git push origin master
+- git remote add origin <server>
+- git pull
+- git merge <branchname>
+
