@@ -1,0 +1,1 @@
+const encryptThis = text => text.replace(/\b\w(\w?)(\w*?)(\w?)\b/g, (word, second, middle, last) => word.charCodeAt(0) + last + middle + second);
